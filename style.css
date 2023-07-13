@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.section--1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container {
+    color: #495057;
+    width: 50%;
+    padding-left: 84px;
+}
+
+.girl--eating {
+    width: 50%;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+.container h1 {
+    font-size: 100px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    padding-bottom: 48px;
+}
+
+.container p {
+    font-size: 34px;
+    width: 800px;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 64px;
+}
+
+.container span {
+    color: orange;
+    font-size: 100px;
+}
+
+.button,
+.order--food:visited {
+    background-image: linear-gradient(orange, tomato);
+    padding: 20px 40px;
+    border-radius: 200px;
+    text-decoration: none;
+    color: white;
+    width: 160px;
+}
+
+.button:hover {
+    background-image: none;
+    border: 1px solid orangered;
+    color: orangered
+}
+
+.about--us {
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.about--left {
+    display: flex;
+    height: 800px;
+    flex-direction: column-reverse;
+    padding: 0 15%;
+}
+
+.about--right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 5%;
+    padding-right: 10%;
+    color: #495057;
+}
+
+.girl--about {
+    height: 700px;
+}
+
+.about--us h1 {
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+
+.about--us p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    line-height: 1.4;
+    word-spacing: 1.2;
+    letter-spacing: 1.2;
+}
+
+.my--recipe {
+    color: #495057;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.my--recipe h1 {
+    font-size: 64px;
+}
+
+.my--recipe p {
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 1.1px;
+}
+
+.recipies {
+    display: flex;
+    justify-content: space-between;
+    color: #495057;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.recipies h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #202326;
+    margin-bottom: 10px;
+}
+
+.recipies p {
+    font-size: 18px;
+    line-height: 1.1;
+}
+
+.recipe--left,
+.recipe--right {
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 38px;
+    width: 45%;
+}
+
+.image--food {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.stats {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 80px;
+    color: #495057;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+span {
+    font-size: 48px;
+    font-weight: 800;
+    color: #111314;
+}
+
+footer {
+    height: 250px;
+    background-color: black;
+    color: #495057;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+footer span {
+    background-image: linear-gradient(orange, tomato);
+    font-weight: 700;
+    padding: 1px 8px;
+}
+
+footer h1 {
+    font-size: 48px;
+}
+
+footer p {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
